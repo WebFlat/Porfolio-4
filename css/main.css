@@ -1,0 +1,284 @@
+/** {
+	border: 2px solid red;
+}*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.container {
+      width: 940px;
+      margin: 0 auto;
+}
+
+
+
+/*Первый блок.............................*/
+.logo {
+	margin-top: 41px;
+	float: left; 
+}
+nav {
+	float: right;
+	margin-top: 50px;
+
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li {
+	display: block;
+	float: left;
+	margin-right: 42px;
+}
+.menu a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px; 
+}
+.menu a:hover {
+	color:  #fed136;
+	position:relative;
+	bottom: -1px;
+	right: -1px;
+}
+.title1 {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.title_first {
+	font-size: 40px;
+	margin-top: 213px;
+}
+h1 {
+    font-size: 75px;
+    font-weight: bold;
+    margin: 50px 0 60px 0; 
+}
+.button {
+	text-transform: uppercase;
+	color: #484543;
+	background: #fed136;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 25px 0;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 60px;
+}
+.button:hover {
+	box-shadow: 0px 0px 15px #fed136;
+
+}
+
+
+
+
+/*Второй блок...........................*/
+.title2 {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+}
+.title2 h2 {
+	font-size: 40px;
+	font-weight: bold;
+    color: #222222;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 120px;
+}
+.title2 p {
+	margin-top: 25px;
+	font-size: 16px;
+    color: #777777;
+}
+.service_item {
+	margin-top: 80px;
+	margin-bottom: 120px;
+}
+.item {
+    width: 250px;
+    float: left;
+    text-align: center;
+}
+.item h3 {
+	font-size: 18px;
+	font-weight: bold;
+    color: #222222;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.item p {
+     font-size: 14px;
+     color: #777777;
+     line-height: 1.55em;
+}
+.item:last-child {
+	float: right;
+}
+.item:nth-child(2) {
+	margin-left: 95px;
+}
+
+
+
+
+/*Третий блок..............................*/
+#Portfolio {
+	background: #f7f7f7;
+	padding-bottom: 130px;
+}
+.title3 {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+}
+.title3 h2 {
+	font-size: 40px;
+	font-weight: bold;
+    color: #222222;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 120px;
+}
+.title3 p {
+	margin-top: 25px;
+	font-size: 16px;
+    color: #777777;
+}
+.images {
+	margin-top: 75px;
+
+}
+.images img {
+	float: left;
+}
+.images img:nth-child(2) {
+	margin-left: 35px;
+}
+.images img:last-child {
+	float: right;
+}
+
+
+
+
+
+
+/*Четвертый блок......................................*/
+.title4 {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+}
+.title4 h2 {
+	font-size: 40px;
+	font-weight: bold;
+    color: #222222;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 130px;
+
+}
+.title4 p {
+	margin-top: 25px;
+	font-size: 16px;
+    color: #777777;
+}
+.block1 {
+	margin: 0;
+	margin-top: 80px;
+	width: 510px;
+	text-align: right;
+	margin-left: 50px;
+}
+.block1 img {
+	float: right;
+	margin-left: 40px;
+}
+.about_block h4,span {
+	margin: 0;
+	margin-bottom: 5px;  
+	font-weight: bold;
+}
+.about_block p {
+	margin: 0;
+	margin-top: 10px;
+	line-height: 1.4em;
+	color: #777777;
+
+}
+.about_block h4 {
+     text-transform: uppercase; 
+}
+.block2 {
+	float: right;
+	margin-top: 95px;
+	width: 510px;
+	text-align: left;
+	margin-right: 50px;
+}
+.block2 img {
+	float: left;
+	margin-right: 40px;	
+}
+.block3 {
+	float: left;
+	margin-top: 95px;
+	width: 510px;
+	text-align: right;
+	margin-left: 50px;
+}
+.block3 img {
+	float: right;
+	margin-left: 40px;
+	overflow: hidden;
+}
+.block4 {
+	float: right;
+	margin-top: 95px;
+	width: 510px;
+	text-align: left;
+	margin-right: 50px;
+}
+.block4 img {
+	float: left;
+	margin-right: 40px;
+}
+
+
+
+
+
+/*Футер...........................*/
+footer p {
+	text-align: center;
+	color: #777777;
+	margin-bottom: 110px;
+	margin-top: 120px;
+}
+
+
+
+
+
+
